@@ -15,7 +15,7 @@
                                                            <?php 
                                                                 $attributes = array('name' => 'regForm');
 
-                                                                echo form_open("user/controller_register/registration", $attributes); ?>
+                                                                echo form_open("index.php/user/controller_register/registration", $attributes); ?>
 
                                                                 <div class="col">
                                                                     <div class="col width-1of4">

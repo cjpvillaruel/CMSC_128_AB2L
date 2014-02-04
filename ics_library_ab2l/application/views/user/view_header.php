@@ -30,14 +30,14 @@
 					</div>
 					<div id="logindiv" class="col">
 					<?php	$attributes = array('name' =>'user_login', 'id' => 'user_login');
-    					 echo form_open('user/controller_verify_login', $attributes); ?>							
+    					 echo form_open('index.php/user/controller_verify_login', $attributes); ?>							
     						<div id="emailuname" class="col width-1of2">
 								<label>Username:</label>
-								<input type="text" name="username" class="shadow"/>
+								<input type="text" name="username"/>
 							</div>
 							<div id="pword" class="cell width-1of3">
 								<label>Password:</label>
-								<input type="password" name="passwordname" class="shadow"/>
+								<input type="password" name="password" />
 							</div>
 							<div id="loginbutton">
 								<input type="submit"/>
