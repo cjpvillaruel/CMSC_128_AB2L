@@ -28,7 +28,7 @@ $holder = $this->input->post('classi');
     'email'=>$this->input->post('eadd'),
     'username'=>$this->input->post('uname'),
     'status'=>'pending',
-    'password'=>md5($this->input->post('pass'))
+    'password'=>sha1($this->input->post('pass'))
   
   );
 $this->db->insert('user_account',$data);
@@ -48,7 +48,7 @@ $this->db->insert('user_account',$data);
     'email'=>$this->input->post('eadd'),
     'username'=>$this->input->post('uname'),
     'status'=>'pending',
-    'password'=>md5($this->input->post('pass'))
+    'password'=>sha15($this->input->post('pass'))
   
   );
 

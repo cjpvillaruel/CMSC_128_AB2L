@@ -31,7 +31,7 @@
 </div>
 <div class="cell">
 	<input type="submit" value= "Login" onclick= "return validate_login()" name = "login_button" class="cell float-right"/>
-	<a href="#" class="cell float-right">Sign up now!</a>
+	<a href="<?php echo base_url(); ?>index.php/user/controller_register" class="cell float-right">Sign up now!</a>
 </div>
 				
 			</form>

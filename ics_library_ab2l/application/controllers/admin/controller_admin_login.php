@@ -16,13 +16,10 @@ class Controller_admin_login extends CI_Controller {
     }
     function login() {
     	if($this->session->userdata('logged_in')){
-    		redirect('admin/view_admin_login', 'refresh');
+    		redirect('index.php/admin/controller_book', 'refresh');
     	}else{
 	        $this->load->helper(array('form','html'));
-	        
-            $this->load->view('admin/view_admin_header');
-            $this->load->view('admin/view_admin_login'); //load view for login
-           // $this->load->view('footer');
+	        $this->load->view('admin/view_login'); //load view for login
     	}
         
        

@@ -463,3 +463,25 @@ table td{
 	box-shadow: 5px 5px 10px #000;
 	height: 100%;
 }
+
+.faq{
+	font-family: Lucida Console;
+	font-size: 50px;
+	color: #413839;
+	text-align: center;
+	letter-spacing: 3px;
+}
+
+#img{
+	background: url('img_faq.jpg');
+}
+
+#panel-size{
+	height: 200px;
+	width: 770px; 
+	padding-left: 5em;
+}
+
+.question{
+	color: gray;
+}

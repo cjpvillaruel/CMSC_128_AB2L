@@ -18,13 +18,11 @@ class Controller_admin_verify_login extends CI_Controller {
            
 
         if($this->form_validation->run() == FALSE) {
-
-            $this->load->view('admin/view_admin_header');
-            $this->load->view('admin/view_admin_login',$data);
+            $this->load->view('admin/view_login',$data);
             } 
         else {
                 //Go to private area
-            redirect('admin/controller_admin_home', 'refresh');
+            redirect('index.php/admin/controller_book', 'refresh');
            }       
      }
  

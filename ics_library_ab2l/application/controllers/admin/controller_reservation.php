@@ -19,11 +19,15 @@ class Controller_reservation extends CI_Controller{
 		$data['parent'] = "Books";
     	$data['current'] = "View Borrowed Books";
 
-        $this->load->helper(array('form','html'));
-        $this->load->view("admin/view_header",$data);
-        $this->load->view("admin/view_aside");
-        $this->load->view('admin/view_reserved_books', $data);	
-        $this->load->view("admin/view_footer");
+        if($this->session->userdata('logged_in')){
+    		 $this->load->helper(array('form','html'));
+	        $this->load->view("admin/view_header",$data);
+	        $this->load->view("admin/view_aside");
+	        $this->load->view('admin/view_reserved_books', $data);	
+	        $this->load->view("admin/view_footer");
+    	}else{
+	        redirect('index.php/admin/controller_admin_login', 'refresh');
+    	}
 		
 	}//END OF get_All()
 	

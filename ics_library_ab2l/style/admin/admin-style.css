@@ -169,3 +169,67 @@ td{
 		-ms-transition: background 1s;
 		-o-transition: background 1s;
 }
+
+html, body{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+#main{
+background: rgb(209,31,49); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(209,31,49,1) 0%, rgba(239,197,202,1) 66%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(209,31,49,1)), color-stop(66%,rgba(239,197,202,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(209,31,49,1) 0%,rgba(239,197,202,1) 66%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(209,31,49,1) 0%,rgba(239,197,202,1) 66%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(209,31,49,1) 0%,rgba(239,197,202,1) 66%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(209,31,49,1) 0%,rgba(239,197,202,1) 66%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d11f31', endColorstr='#efc5ca',GradientType=0 ); /* IE6-9 */
+height:100%;
+}
+
+#lock{
+	position:relative;
+	margin: 0 auto;
+	top: 8em;
+}
+
+#lock-pic{
+	background-image:url('../../images/lock.png');
+	height:26em;
+	background-size: 100% 100%;
+}
+
+#labels{
+border-radius:10px;
+left:320px;
+top:150px;
+position:relative;
+height: 265px;
+width: 410px;
+background-color: white;
+}
+
+#log-panel{
+	background-image: url('../../images/ad-log.png');
+	height: 7em;
+	background-size: 100% 100%;
+}
+#white{
+	border-radius: 5px;
+}
+
+#form_cont{
+	border-radius: 5px;
+}
+.field{
+	width: 80%;
+	margin-left: 2em;
+}
+.lable_field{
+	left: 50px;
+}
+
+#submit{
+	float:right;
+	margin-right: 5em;
+	width: 4em
+}

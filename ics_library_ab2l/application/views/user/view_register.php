@@ -9,6 +9,14 @@
                                         <div class="cell panel">
                                             <div id="regform" class="body">
                                                 <div class="cell">
+                                                    <div class="color-red width-fill" style="font-weight: bold;"><p>
+                                                        <?php 
+                                                            if(isset($msg)){
+                                                                echo $msg;
+                                                             }
+
+                                                     ?></p>
+                                                    </div>
                                                 	<p class="tiny">* - required field</p>
                                                     <div class="col">
                                                         <div class="cell">
@@ -25,9 +33,10 @@
                                                                     </div>
                                                                     <div class="col width-fill">
                                                                         <div class="cell">
-                                                                            <input type="text" name="fname" class="background-white" id = "fname" placeholder="Your first name" required onfocus = "disabler()" /><span name = "valFname"></span>
+                                                                            <input type="text" name="fname" class="background-white" id = "fname" placeholder="Your first name" required onfocus = "disabler()" /><span class="cell" name = "valFname"></span>
                                                                         </div>
                                                                     </div>
+                                                                    <span>
                                                                 </div>
 
                                                                 <div class="col">
@@ -219,4 +228,5 @@
                                 </div>
                             </div>
                         </div>
+            <script src="<?php echo base_url() ?>js/formValidation.js"></script>
             <script src="<?php echo base_url() ?>js/validation.js"></script>

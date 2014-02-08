@@ -46,7 +46,7 @@
 							<div>
 								<ul class="nav-links">
 									<li><a href="<?php echo base_url() ?>index.php/admin/controller_view_logs" class="nav-a">View Logs</a></li>
-									<li><a href="<?php echo base_url() ?>index.php/admin/controller_view_logout" class="nav-a">Logout</a></li>
+									<li><a href="<?php echo base_url() ?>index.php/admin/controller_logout" class="nav-a">Logout</a></li>
 								</ul>
 							</div>
 						</div>

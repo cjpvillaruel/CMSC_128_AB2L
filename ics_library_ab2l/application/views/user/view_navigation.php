@@ -11,6 +11,3 @@
 				<li><a href="<?php echo base_url(); ?>index.php/user/controller_books">View Books</a></li>
 				<li><a href="<?php echo base_url(); ?>index.php/user/controller_faq">FAQS</a></li>
 				<li><a href="<?php echo base_url(); ?>index.php/user/controller_contact">Contact Us</a></li>	
-			</ul>
-		</nav>
-		<h4 id="account-label" class="col navigation-label">ACCOUNT RELATED</h4>

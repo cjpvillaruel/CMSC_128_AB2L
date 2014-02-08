@@ -34,7 +34,7 @@
 				<div  class="col width-1of4 shadow-right secondary-header border-bottom">
 					<div class="col">
 						<img id="icon-user" src="<?php echo base_url() ?>images/icn_user.png"/>
-						<p id="user-name">Ivann Granada (<a href="<?php echo base_url() ?>index.php/admin/controller_logout">Logout</a>)</p>
+						<p id="user-name"> ADMIN (<a href="<?php echo base_url() ?>index.php/admin/controller_logout">Logout</a>)</p>
 					</div>
 				</div>
 				<div class="col width-fill border-bottom secondary-header shadow-bottom">

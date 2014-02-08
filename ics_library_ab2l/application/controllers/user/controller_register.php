@@ -42,16 +42,29 @@ class Controller_register extends CI_Controller {
 
           if($this->form_validation->run() == FALSE)
           {
-           $this->index();
-           echo "Oops, something went wrong with your registration. Better Try Again";
-          echo validation_errors(); 
+           $data['msg'] = validation_errors();
+           $this->success($data); 
           }
           else
           {
             $this->model_register->add_user();
-            $this->index();
-            echo "SUCCESS!!";
+            $data['msg'] = "You successfully registered an account. You may proceed to ICS library to activate it! ";
+            $this->success($data);
           }
+    }
+
+    function success($data) {
+        $this->load->helper(array('form','html'));
+        $this->load->view("user/view_header");
+        $this->load->view("user/view_register",$data);
+        $this->load->view("user/view_navigation");
+        if($this->session->userdata('logged_in')){
+            $this->load->view("user/view_logged_in");
+        }
+        else{
+             $this->load->view("user/view_not_logged");
+        }  
+        $this->load->view("user/view_footer");
     }
 }
 /* End of file home_controller.php */
