@@ -1,0 +1,129 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#page_holder{
+	margin-right: auto;
+	margin-left: auto;
+	//background-color: black;
+	width: 1024px;
+	height: 100%;
+}
+
+#header{
+	//background-color: green;
+	height: 175px;
+	background-image: url('img/header.png');
+}
+
+#navigation{
+	//background-color: blue;
+	margin-bottom: -20px;
+	font-family: Arial;
+}
+
+#sidebar {
+	margin: 1% auto;
+	text-align: center;
+	font-family: Arial;
+	font-size: 14px;
+}
+
+#sidebar button{
+	width: 200px;
+	background-color: white;
+}
+
+#page_holder{
+	background-color: #f5f5f5;
+}
+
+#forAdmin{
+	margin-right: auto;
+	margin-left: auto;
+	padding: 4% 4%;
+	width: 90%;
+	border-style: solid;
+	border-color: black;
+	border-radius: 15px;
+	background-color: rgba(255, 255, 255, 0.5);
+	font-family: "Century Gothic";
+}
+
+h1{
+	color: blue;
+	font-weight: bold;
+}
+
+#details{
+	//background-color: yellow;
+	padding: 3% 3%;
+}
+
+#search{
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: white;
+	border-radius: 15px;
+	padding: 2%;
+	text-align: center;
+}	
+
+#grp1, #grp2, #grp3{
+	margin-right: auto;
+	margin-left: auto;
+	//background-color: green;
+	width: 50%;
+	text-align: left;
+	font-family: Comic Sans;
+}
+
+#search button{
+	text-align: center;
+}
+
+
+#footer{
+	background-color: pink;
+}

@@ -1,0 +1,45 @@
+/***************/
+/* Autosuggest */
+#advance_search{
+  display:none;
+  overflow:hidden;
+}
+.autosuggest {
+  background-color: #ffffff;
+  border:1px solid #000000;
+  display:none;
+  overflow:hidden;
+  padding:0px;
+  position:absolute;
+  width:500px;
+  z-index:1;
+}
+
+.suggested_list {
+  background-color:#FFFFFF;
+  cursor:pointer;
+  display:block;
+  padding:10px;
+  white-space:nowrap;
+}
+
+.suggested_list:hover {
+  background-color:#666666;
+  color:#FFFFFF;
+  width: 100%;
+}
+
+.loading{
+  background-image:url('img/indicator.gif');
+  background-position:right;
+  background-repeat:no-repeat;
+}
+
+.autosuggest_input {
+  width:500px;
+}
+.book_details{
+  border: solid;
+  list-style:none;
+  padding: 20px;
+}
