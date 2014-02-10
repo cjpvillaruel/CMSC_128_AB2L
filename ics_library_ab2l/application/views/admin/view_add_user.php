@@ -1,12 +1,9 @@
 <div id="main-container" class="body width-fill">
 					<div class="col">
                             <div class="cell">
-<<<<<<< HEAD
                                 <div class="page-header cell">
                                         <h1>Admin <small>Add Users</small></h1>
                                     </div>
-=======
->>>>>>> 268f0ee5f26cb862545418d097590d4589baf09e
                                 <div class="col width-fill">
                                     <div class="col">
                                         <div class="cell panel">

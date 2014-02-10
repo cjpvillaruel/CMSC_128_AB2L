@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <script type="text/javascript">
                         window.onload=function() {
                             myform.call_number.onblur=validate_call_no;
@@ -219,23 +218,11 @@
                                     <div class="col">
                                         <div class="cell panel">
                                             <p class="tiny cell">Note: *- required fields</p>
-=======
-<div class="body width-fill background-white">
-					<div class="col">
-                            <div class="cell">
-                                <div class="col width-fill">
-                                    <div class="col">
-                                        <div class="cell panel">
->>>>>>> 268f0ee5f26cb862545418d097590d4589baf09e
                                             <div class="body">
                                                 <div class="cell">
                                                     <div class="col">
                                                         <div class="cell">
-<<<<<<< HEAD
                                                             <form name = "myform" action="<?php echo base_url() ?>index.php/admin/controller_book/edit_book" method="post">
-=======
-                                                            <form name = "myform">
->>>>>>> 268f0ee5f26cb862545418d097590d4589baf09e
 
                                                                 <div class="col">
                                                                     <div class="col width-1of4">
@@ -245,11 +232,7 @@
                                                                     </div>
                                                                     <div class="col width-fill">
                                                                         <div class="cell">
-<<<<<<< HEAD
                                                                             <input type = "text" name = "title" value="<?php echo $book[0]->title ;?>" />&nbsp;<span name="help_title" class="color-red"></span><br/>
-=======
-                                                                            <input type="text" id="title" name="booktitle" placeholder="Title of the Book"  data-required="true">&nbsp;<span name="helptitle" class="color-red"></span><br/>
->>>>>>> 268f0ee5f26cb862545418d097590d4589baf09e
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -260,7 +243,6 @@
                                                                             <label for="author">Author<span class="color-red"> *</span></label>
                                                                         </div>
                                                                     </div>
-<<<<<<< HEAD
                                                                     <div class="col width-fit">
                                                                         <div class="cell">
                                                                             <?php 
@@ -275,13 +257,6 @@
                                                                         </div>
                                                                     </div>
                     
-=======
-                                                                    <div class="col width-fill">
-                                                                        <div class="cell">
-                                                                            <input type="text" id="author" name="author" placeholder="Author's Name"  data-required="true">&nbsp;<span name="helpauthor" class="color-red"></span><br/>
-                                                                        </div>
-                                                                    </div>
->>>>>>> 268f0ee5f26cb862545418d097590d4589baf09e
                                                                 </div>
 
                                                                 <div class="col">
@@ -292,11 +267,7 @@
                                                                     </div>
                                                                     <div class="col width-fill">
                                                                         <div class="cell">
-<<<<<<< HEAD
                                                                             <input type = "text" name = "call_number" value="<?php echo $book[0]->call_number ;?>" disabled />&nbsp;<span name="help_call_number" class="color-red"></span><br/>
-=======
-                                                                            <input type="text" id="callno" name="callno" placeholder="Call number of the book" data-required="true">&nbsp;<span name="helpcallno" class="color-red"></span><br/>
->>>>>>> 268f0ee5f26cb862545418d097590d4589baf09e
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -307,7 +278,6 @@
                                                                             <label for="subject">Subject<span class="color-red"> *</span></label>
                                                                         </div>
                                                                     </div>
-<<<<<<< HEAD
                                                                     <div class="col width-fit">
                                                                         <div class="cell">
                                                                             <?php 
@@ -319,11 +289,6 @@
                                                                             &nbsp;<span name="help_subject" class="color-red"></span>
                                                                             <input type="button" class="row2 cell" value="Add subject" onclick="addRow_subj(this, false)"/>
                                                                             <br/>
-=======
-                                                                    <div class="col width-fill">
-                                                                        <div class="cell">
-                                                                            <input type="text" id="subject" name="subject" placeholder="Book Subject" data-required="true">&nbsp;<span name="helpsubject" class="color-red"></span><br/>
->>>>>>> 268f0ee5f26cb862545418d097590d4589baf09e
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -336,12 +301,8 @@
                                                                     </div>
                                                                     <div class="col width-fill">
                                                                         <div class="cell">
-<<<<<<< HEAD
                                                                             <input type = "number" name = "year_of_pub" min=1900 max="<?php echo date("Y"); ?>" value="<?php echo $book[0]->year_of_pub ;?>" />&nbsp;<span name="help_year_pub" class="color-red"></span><br/>
                                                                             
-=======
-                                                                            <input type="number" id="yearpub" name="yearpub" data-required="true">&nbsp;<span name="helpyearpub" class="color-red"></span><br/>
->>>>>>> 268f0ee5f26cb862545418d097590d4589baf09e
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -354,7 +315,6 @@
                                                                     </div>
                                                                     <div class="col width-fill">
                                                                         <div class="cell">
-<<<<<<< HEAD
                                                                             <select name="type">
                                                                                 <?php
                                                                                 $types = array("Book", "SP", "Thesis");
@@ -370,8 +330,6 @@
                                                                             ?>
                                                                             </select>
                                                                             
-=======
-                                                                            <input type="text" id="booktype" name="booktype" placeholder="Type of the Book" data-required="true">&nbsp;<span name="helpbooktype" class="color-red"></span><br/>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -379,34 +337,12 @@
                                                                 <div class="col">
                                                                     <div class="col width-1of4">
                                                                         <div class="cell">
-                                                                            <label for="available">Number of Available Copies of the Book<span class="color-red"> *</span></label>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="col width-fill">
-                                                                        <div class="cell">
-                                                                            <input type="number" id="available" name="available" data-required="true">&nbsp;<span name="helpavailable" class="color-red"></span><br/>
->>>>>>> 268f0ee5f26cb862545418d097590d4589baf09e
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-
-                                                                <div class="col">
-                                                                    <div class="col width-1of4">
-                                                                        <div class="cell">
-<<<<<<< HEAD
                                                                             <label for="total">Quantity<span class="color-red"> *</span></label>
-=======
-                                                                            <label for="total">Total Number of the Book<span class="color-red"> *</span></label>
->>>>>>> 268f0ee5f26cb862545418d097590d4589baf09e
                                                                         </div>
                                                                     </div>
                                                                     <div class="col width-fill">
                                                                         <div class="cell">
-<<<<<<< HEAD
                                                                             <input type = "number" name = "quantity" min=1 max=50 value="<?php echo $book[0]->quantity ;?>" />&nbsp;<span name="helpquantity" class="color-red"></span><br/>
-=======
-                                                                            <input type="number" id="total" name="total" data-required="true">&nbsp;<span name="helptotal" class="color-red"></span><br/>
->>>>>>> 268f0ee5f26cb862545418d097590d4589baf09e
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -414,20 +350,12 @@
                                                                 <div class="col">
                                                                     <div class="col width-1of4">
                                                                         <div class="cell">
-<<<<<<< HEAD
                                                                             <label for="total">No of Available<span class="color-red"> *</span></label>
-=======
-                                                                            <label for="bookstatus">Book Status<span class="color-red"> *</span></label>
->>>>>>> 268f0ee5f26cb862545418d097590d4589baf09e
                                                                         </div>
                                                                     </div>
                                                                     <div class="col width-fill">
                                                                         <div class="cell">
-<<<<<<< HEAD
                                                                             <input type = "text" name = "no_of_available" value="<?php echo $book[0]->no_of_available ;?>"/>&nbsp;<span name="helpquantity" class="color-red"></span><br/>
-=======
-                                                                            <input type="number" id="bookstatus" name="bookstatus" data-required="true">&nbsp;<span name="helpbookstatus" class="color-red"></span><br/>
->>>>>>> 268f0ee5f26cb862545418d097590d4589baf09e
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -437,12 +365,8 @@
                                                                     </div>
                                                                     <div class="col width-fill">
                                                                         <div class="cell">
-<<<<<<< HEAD
                                                                             </br><input type = "submit" name = "submit" value = "Submit" onclick="process_add()">
                                                                             <input type = "hidden" name = "call_number1" value="<?php echo $book[0]->call_number ;?>" />
-=======
-                                                                            </br><button class="button" type="submit">Submit</button>
->>>>>>> 268f0ee5f26cb862545418d097590d4589baf09e
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -456,8 +380,4 @@
                                 </div>
                             </div>
                         </div>
-<<<<<<< HEAD
                 </div>
-=======
-				</div>
->>>>>>> 268f0ee5f26cb862545418d097590d4589baf09e

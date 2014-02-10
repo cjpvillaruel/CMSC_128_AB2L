@@ -5,12 +5,9 @@
 </script>
 <div class="body width-fill background-white">
 					<div class="cell">
-<<<<<<< HEAD
 						<div class="page-header cell">
                                         <h1>Admin <small>Search Books</small></h1>
                         </div>
-=======
->>>>>>> 268f0ee5f26cb862545418d097590d4589baf09e
 						<div id="accordion">
 											<h3>Basic Search<h3>
 											<div class="col body">

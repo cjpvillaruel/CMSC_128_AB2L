@@ -29,14 +29,10 @@
 						</div>
 					</div>
 					<div id="logindiv" class="col">
-<<<<<<< HEAD
 
 					<?php	
 						if(!($this->session->userdata('logged_in'))){
 					$attributes = array('name' =>'user_login', 'id' => 'user_login');
-=======
-					<?php	$attributes = array('name' =>'user_login', 'id' => 'user_login');
->>>>>>> 268f0ee5f26cb862545418d097590d4589baf09e
     					 echo form_open('index.php/user/controller_verify_login', $attributes); ?>							
     						<div id="emailuname" class="col width-1of2">
 								<label>Username:</label>
@@ -50,15 +46,12 @@
 								<input type="submit"/>
 							</div>
 						</form>
-<<<<<<< HEAD
 						<?php
 							}
 							else{
 								//echo "<div class='cell float-right'><div class='cell'><p>Welcome Name(<a href='#''>Logout</a>)</p></div></div>";
 							}
 						?>
-=======
->>>>>>> 268f0ee5f26cb862545418d097590d4589baf09e
 					</div>
 				</div>
 		<div id="body" class="col site-body background-blue width-fill">

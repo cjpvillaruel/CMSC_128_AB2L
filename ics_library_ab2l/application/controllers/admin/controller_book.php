@@ -42,16 +42,11 @@ class Controller_book extends Controller_log {
 			$this->model_book->insert_book_info($call_number, $title, $year_of_pub, $type, $no_of_available, $quantity, $book_stat, $author, $subject);
 			
 			$this->add_log("Admin 1 added a new book: $call_number", "Add Book");
-<<<<<<< HEAD
 			header("refresh:0;url=call_success");
-=======
-			//header("refresh:0;url=call_success");
->>>>>>> 268f0ee5f26cb862545418d097590d4589baf09e
 		}
 	}
 
 	public function call_success(){
-<<<<<<< HEAD
 			echo "<script>
 				alert('You have successfully add a book');
 			</script>";
@@ -123,12 +118,5 @@ class Controller_book extends Controller_log {
 	}
 
 
-=======
-			//$this->load->view("view_success_add_book");
-	}
-	
-	/*UPDATE book*/
-	
->>>>>>> 268f0ee5f26cb862545418d097590d4589baf09e
 }
  ?>

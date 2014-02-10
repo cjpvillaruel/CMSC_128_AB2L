@@ -1,15 +1,10 @@
 <div class="body width-fill background-white">
 					<div class="cell">
-<<<<<<< HEAD
                         <div class="page-header cell">
                                         <h1>Admin <small>View Borrowed Books</small></h1>
                         </div>
 						<div class="panel datasheet cell">
 	                        <div class="header background-red">
-=======
-						<div class="panel datasheet cell">
-	                        <div class="header">
->>>>>>> 268f0ee5f26cb862545418d097590d4589baf09e
 	                            List of borrowed books
 	                        </div>
 	                        <table class="body">

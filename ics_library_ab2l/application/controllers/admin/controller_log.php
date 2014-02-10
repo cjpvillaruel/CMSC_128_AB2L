@@ -5,22 +5,13 @@
 		public function __construct()
 		{
 			parent::__construct();
-<<<<<<< HEAD
 		}
 
 		function index(){
-=======
-			$this->load->model('model_log');
-		}
-
-		function index(){
-			$this->load->view("view_admin_home");
->>>>>>> 268f0ee5f26cb862545418d097590d4589baf09e
 			$this->show_all_log();
 		}
 
 		function show_all_log(){
-<<<<<<< HEAD
 			$this->load->model('model_log');
 			$data['log'] = $this->model_log->get_log();
 			$data['parent'] = "Admin";
@@ -40,13 +31,6 @@
 
 		function add_log($message, $type){
 			$this->load->model('model_log');
-=======
-			$data['log'] = $this->model_log->get_log();
-			$this->load->view("view_log", $data);
-		}
-
-		function add_log($message, $type){
->>>>>>> 268f0ee5f26cb862545418d097590d4589baf09e
 			$this->model_log->add_log($message, $type);
 		}
 	}

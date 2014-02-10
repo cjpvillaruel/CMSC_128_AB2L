@@ -19,12 +19,8 @@
 		}
 		public function add_log($message, $type)
 		{
-<<<<<<< HEAD
 			$time = date("G:i:s");
 			$sql="INSERT INTO `admin_log` (`date`, `message`, `type`, `time`) VALUES (NOW(), ".$this->db->escape($message).", ".$this->db->escape($type).", '$time')";
-=======
-			$sql="INSERT INTO `admin_log` (`date`, `message`, `type`, `time`) VALUES (NOW(), ".$this->db->escape($message).", ".$this->db->escape($type).", NOW())";
->>>>>>> 268f0ee5f26cb862545418d097590d4589baf09e
 			$query = $this->db->query($sql) or die(mysql_error());
 		}
 	}

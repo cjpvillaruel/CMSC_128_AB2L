@@ -5,10 +5,6 @@ class Controller_search extends CI_Controller {
     	$data['parent'] = "Books";
     	$data['current'] = "Search";
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 268f0ee5f26cb862545418d097590d4589baf09e
     	if($this->session->userdata('logged_in')){
     		$this->load->helper(array('form','html'));
 	        $this->load->view("admin/view_header",$data);

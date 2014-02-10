@@ -45,13 +45,9 @@ class Model_book extends CI_Model {
 
 	function get_by_id($id){
 		$this->db->where('call_number', $id);
-<<<<<<< HEAD
 		$query = $this->db->get('book');
 		return $query->result();
 
-=======
-		return $this->db->get('book');
->>>>>>> 268f0ee5f26cb862545418d097590d4589baf09e
 	}
 
 }

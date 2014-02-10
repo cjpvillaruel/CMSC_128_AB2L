@@ -1,15 +1,10 @@
 <div class="body width-fill background-white">
 					<div class="cell">
-<<<<<<< HEAD
 						<div class="page-header cell">
                                         <h1>Admin <small>View User Accounts</small></h1>
                          </div>
 						<div class="panel datasheet cell">
 	                        <div class="header background-red">
-=======
-						<div class="panel datasheet cell">
-	                        <div class="header">
->>>>>>> 268f0ee5f26cb862545418d097590d4589baf09e
 	                            List of Users
 	                        </div>
 	                        <table class="body">
@@ -27,11 +22,7 @@
 	                            <tbody>
 	                            	<?php
 		                            	$count = 1;
-<<<<<<< HEAD
 		                                foreach ($acct as $row) {
-=======
-		                                foreach ($results as $row) {
->>>>>>> 268f0ee5f26cb862545418d097590d4589baf09e
 											echo "<tr>";
 											echo "<td>$count</td>";
 											echo "<td>".$row->account_number."</td>";
@@ -53,14 +44,10 @@
 											echo "<td>"."Registered"."</td>";
 											}
 											else{
-<<<<<<< HEAD
 												echo "<form action='".base_url()."index.php/admin/controller_user/approve_user' method='POST'>";
 												echo "<input type='hidden' name='account_number1' value='$row->account_number'/>";
 												echo "<td>"."<input type ='submit' class='background-red' name='approve' value = 'Confirm'>"."</td>";	//'Validate' button. Functionality not included here.
 										    	echo "</form>";
-=======
-												echo "<td>"."<input type = 'button' class='background-red' value = 'Confirm'>"."</td>";	//'Validate' button. Functionality not included here.
->>>>>>> 268f0ee5f26cb862545418d097590d4589baf09e
 										    }
 											
 											echo "</tr>";

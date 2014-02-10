@@ -34,11 +34,7 @@
 								<ul class="nav-links">
 									<li><a href="<?php echo base_url() ?>index.php/admin/controller_add_user" class="nav-a">Add New User</a></li>
 									<li><a href="<?php echo base_url() ?>index.php/admin/controller_add_admin" class="nav-a">Add New Admin</a></li>
-<<<<<<< HEAD
 									<li><a href="<?php echo base_url() ?>index.php/admin/controller_user" class="nav-a">View Users</a></li>
-=======
-									<li><a href="<?php echo base_url() ?>index.php/admin/controller_view_users" class="nav-a">View Users</a></li>
->>>>>>> 268f0ee5f26cb862545418d097590d4589baf09e
 								</ul>
 							</div>
 						</div>
@@ -49,13 +45,9 @@
 							</div>
 							<div>
 								<ul class="nav-links">
-<<<<<<< HEAD
 									<li><a href="<?php echo base_url() ?>index.php/admin/controller_announcement/viewForm" class="nav-a">Add Announcements</a></li>
 									<li><a href="<?php echo base_url() ?>index.php/admin/controller_announcement" class="nav-a">View Announcements</a></li>
 									<li><a href="<?php echo base_url() ?>index.php/admin/controller_log" class="nav-a">View Logs</a></li>
-=======
-									<li><a href="<?php echo base_url() ?>index.php/admin/controller_view_logs" class="nav-a">View Logs</a></li>
->>>>>>> 268f0ee5f26cb862545418d097590d4589baf09e
 									<li><a href="<?php echo base_url() ?>index.php/admin/controller_logout" class="nav-a">Logout</a></li>
 								</ul>
 							</div>

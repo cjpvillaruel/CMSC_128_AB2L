@@ -66,10 +66,7 @@ class Admin_Model extends CI_Model
 		$this->username = $value;
 	}
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 268f0ee5f26cb862545418d097590d4589baf09e
 	/**
 		PASSWORD
 	**/
@@ -103,11 +100,7 @@ class Admin_Model extends CI_Model
 		);
 
 		//create query to connect user login database
-<<<<<<< HEAD
         $this->db->select('username, password');
-=======
-        $this->db->select('username, password','first_name','last_name','middle_initial');
->>>>>>> 268f0ee5f26cb862545418d097590d4589baf09e
         $this->db->from('admin_account');
         $this->db->where('username', $username);
         $this->db->where('password', sha1($password));
